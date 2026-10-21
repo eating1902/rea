@@ -1,0 +1,5 @@
+[mcp_servers.rea]
+command = "/bin/bash"
+args = ["-c", "source /workspace/rea-tools/env.sh && exec node /workspace/rea/scripts/rea.mjs mcp"]
+startup_timeout_sec = 60
+tool_timeout_sec = 120
